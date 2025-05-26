@@ -17,6 +17,10 @@ class UserList extends Component
         $this->x++;
     }
 
+    public function decrement(){
+        $this->x--;
+    }
+
     public function render()
     {
         return view('livewire.user.user-list');
