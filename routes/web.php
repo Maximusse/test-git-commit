@@ -8,4 +8,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route menant vers l'etat des utilisateurs
 Route::get('/users', UserList::class)->name('users');
