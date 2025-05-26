@@ -10,6 +10,13 @@ use Livewire\Component;
 #[Title("Users")]
 class UserList extends Component
 {
+
+    public $x = 0;
+
+    public function increment(){
+        $this->x++;
+    }
+
     public function render()
     {
         return view('livewire.user.user-list');
