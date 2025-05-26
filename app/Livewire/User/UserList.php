@@ -12,6 +12,7 @@ class UserList extends Component
 {
 
     public $x = 0;
+    public $y = 0;
 
     public function increment(){
         $this->x++;
